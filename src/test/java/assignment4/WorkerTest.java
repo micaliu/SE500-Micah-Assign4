@@ -1,4 +1,4 @@
-package assignment3;
+package assignment4;
 
 import com.google.inject.Inject;
 import org.jukito.JukitoRunner;
@@ -17,6 +17,7 @@ public class WorkerTest {
 
     @Test
     public void testWorkLikeADog() throws ParseException {
+
         now.set(new SimpleDateFormat("yyyy-M-d").parse("2016-4-24"));
         worker.workLikeADog();
 
